@@ -42,7 +42,7 @@ def main():
                 st.info("Please enter a valid API Key to access Qdrant", icon="🗝️")
 
         with tab2:
-            st.subheader("Qdrant API 🗝️")
+            st.subheader("Open AI API 🗝️")
             open_ai_api = st.text_input("Please enter your Open AI Api Key: ", type="password")
             if open_ai_api:
                 try:
@@ -163,7 +163,7 @@ def main():
         except:
             st.warning("Hmmm something went wrong 🤔 Please check you entered a valid Open AI API Key", icon="🔐")
     else:
-        st.info("🗝️ Please enter a valid API Key to access Open AI chat features")
+        st.info("👈 Please enter a valid Open AI API Key to access Open AI chat features")
         placeholder_query_document = st.empty()
         placeholder_query_document.image(
             "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXB2YWNndGJrNTZhMmN0MXBzdmRhMGo3eDcwOTE4aGE4emtibDQ5eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/k7LvfbDPWR0Uxcqm6f/giphy.gif")
